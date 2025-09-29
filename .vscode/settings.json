@@ -1,19 +1,9 @@
 {
     "makefile.launchConfigurations": [
         {
-            "cwd": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture._LR1\\project",
-            "binaryPath": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture._LR1\\project\\program",
+            "cwd": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture_and_software_1\\bin",
+            "binaryPath": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture_and_software_1\\bin\\program",
             "binaryArgs": []
         }
-    ],
-    "files.associations": {
-        "stdio.h": "c",
-        "x86intrin.h": "c",
-        "stdlib.h": "c",
-        "time.h": "c",
-        "malloc.h": "c",
-        "mat_float.h": "c",
-        "mat_double.h": "c",
-        "mat.h": "c"
-    }
+    ]
 }
