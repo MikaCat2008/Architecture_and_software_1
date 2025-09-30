@@ -84,17 +84,12 @@ void mat_print_1di(Mat1Di* mat)
     size_t size = mat->size;
     int* data = mat->data;
 
-    printf("[[");
+    printf("[");
 
     for (int i = 0; i < size; i++)
-    {
-        printf(" %5.1f", data[i]);
+        printf(" %5d", data[i]);
 
-        if (i + 1 < size)
-            printf("\n  ");
-    }
-
-    printf(" ]]\n");
+    printf(" ]\n");
 }
 
 void mat_print_2di(Mat2Di* mat)
@@ -107,7 +102,7 @@ void mat_print_2di(Mat2Di* mat)
     for (int i = 0; i < size; i++)
     {
         for (int j = 0; j < size; j++) 
-            printf(" %5.1f", data[i * size + j]);
+            printf(" %5d", data[i * size + j]);
 
         if (i + 1 < size)
             printf("\n  ");

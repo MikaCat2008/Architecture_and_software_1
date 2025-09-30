@@ -1,10 +1,9 @@
 #include <time.h>
 #include <stdio.h>
-
 #include "mat.h"
 
-// #define PRINT_MATRIX
-#define SHORT_OUTPUT
+#define PRINT_MATRIX
+// #define SHORT_OUTPUT
 
 static int n = 1000;
 
@@ -289,14 +288,34 @@ void tests_double()
 
 
 int main() {
-    for (int i = 1; i < 47; i++)
-    {
-        n = i * 1000;
+    // тестування роботи функціоналу для N=4, N=8 та N=16
+    n = 4;
+    
+    tests_int();
+    tests_float();
+    tests_double();
 
-        tests_int();
-        tests_float();
-        tests_double();
-    }
+    n = 8;
+    
+    tests_int();
+    tests_float();
+    tests_double();
+
+    n = 16;
+    
+    tests_int();
+    tests_float();
+    tests_double();
+
+    // тестування швидкості роботи алгоритмів для всіх типів від N=1000 до N=46000 з кроком 1000
+    // for (int i = 1; i <= 46; i++)
+    // {
+    //     n = i * 1000;
+
+    //     tests_int();
+    //     tests_float();
+    //     tests_double();
+    // }
 
     return 0;
 }

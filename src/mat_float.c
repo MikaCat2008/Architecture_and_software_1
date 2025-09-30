@@ -84,17 +84,12 @@ void mat_print_1df(Mat1Df* mat)
     size_t size = mat->size;
     float* data = mat->data;
 
-    printf("[[");
+    printf("[");
 
     for (int i = 0; i < size; i++)
-    {
         printf(" %5.1f", data[i]);
 
-        if (i + 1 < size)
-            printf("\n  ");
-    }
-
-    printf(" ]]\n");
+    printf(" ]\n");
 }
 
 void mat_print_2df(Mat2Df* mat)

@@ -84,17 +84,12 @@ void mat_print_1dd(Mat1Dd* mat)
     size_t size = mat->size;
     double* data = mat->data;
 
-    printf("[[");
+    printf("[");
 
     for (int i = 0; i < size; i++)
-    {
         printf(" %5.1f", data[i]);
 
-        if (i + 1 < size)
-            printf("\n  ");
-    }
-
-    printf(" ]]\n");
+    printf(" ]\n");
 }
 
 void mat_print_2dd(Mat2Dd* mat)
