@@ -9,6 +9,11 @@
             "cwd": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture_and_software_1\\bin",
             "binaryPath": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture_and_software_1\\bin\\main",
             "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture_and_software_2\\bin",
+            "binaryPath": "c:\\Users\\zxmikacat\\Desktop\\dnu\\labs\\Architecture_and_software_2\\bin\\main",
+            "binaryArgs": []
         }
     ],
     "files.associations": {
@@ -24,6 +29,7 @@
         "stddef.h": "c",
         "avxintrin.h": "c",
         "omp.h": "c",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "iostream": "cpp"
     }
 }
