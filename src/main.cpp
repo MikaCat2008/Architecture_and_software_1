@@ -67,7 +67,7 @@ void test(size_t N) {
     for (int i = 0; i < N; i++)
         R[i] = 0;
 
-    clock_t start = clock();
+    start = clock();
     for (size_t i = 0; i < N; i++)
         for (size_t j = 0; j < N; j++)
             R[j] += V[i] * S[i][j];
